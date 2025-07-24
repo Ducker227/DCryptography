@@ -175,11 +175,12 @@ CheckDonCheckFive = 0
 CheckDonCheckSix = 0
 CheckDonCheckSeven = 0
 
- 
+
 code = 0
-CodeChecker = 0
 Position = 0
+CodeChecker = 0
 EncryptionArray = []
+TheRandomHighNumber = 923
 
 def ArrayAdder(grid, row, col, iteam):
 
@@ -220,11 +221,11 @@ while count != 10000000:
         if one == 0:
             while ThisIsACounterSoTheCodeWorks != 1:
                 if ZeroALocked == 0:
-                    a = random.randint(1, 94)
-                    b = random.randint(1, 94)
-                    c = random.randint(1, 94)
-                    d = random.randint(1, 94)
-                    e = random.randint(1, 94)
+                    a = random.randint(1, TheRandomHighNumber)
+                    b = random.randint(1, TheRandomHighNumber)
+                    c = random.randint(1, TheRandomHighNumber)
+                    d = random.randint(1, TheRandomHighNumber)
+                    e = random.randint(1, TheRandomHighNumber)
                     ZeroALocked = a
                     ZeroBLocked = b
                     ZeroCLocked = c
@@ -238,11 +239,11 @@ while count != 10000000:
         elif one == 1:
             while ThisIsACounterSoTheCodeWorksbutdifferent1 != 1:
                 if OneALocked == 0:
-                    a = random.randint(1, 94)
-                    b = random.randint(1, 94)
-                    c = random.randint(1, 94)
-                    d = random.randint(1, 94)
-                    e = random.randint(1, 94)
+                    a = random.randint(1, TheRandomHighNumber)
+                    b = random.randint(1, TheRandomHighNumber)
+                    c = random.randint(1, TheRandomHighNumber)
+                    d = random.randint(1, TheRandomHighNumber)
+                    e = random.randint(1, TheRandomHighNumber)
                     OneALocked = a
                     OneBLocked = b
                     OneCLocked = c
@@ -256,11 +257,11 @@ while count != 10000000:
         elif one == 2:
             while ThisIsACounterSoTheCodeWorksbutdifferent2 != 1:
                 if TwoALocked == 0:
-                    a = random.randint(1, 94)
-                    b = random.randint(1, 94)
-                    c = random.randint(1, 94)
-                    d = random.randint(1, 94)
-                    e = random.randint(1, 94)
+                    a = random.randint(1, TheRandomHighNumber)
+                    b = random.randint(1, TheRandomHighNumber)
+                    c = random.randint(1, TheRandomHighNumber)
+                    d = random.randint(1, TheRandomHighNumber)
+                    e = random.randint(1, TheRandomHighNumber)
                     TwoALocked = a
                     TwoBLocked = b
                     TwoCLocked = c
@@ -274,11 +275,11 @@ while count != 10000000:
         elif one == 3:
             while ThisIsACounterSoTheCodeWorksbutdifferent3 != 1:
                 if ThreeALocked == 0:
-                    a = random.randint(1, 94)
-                    b = random.randint(1, 94)
-                    c = random.randint(1, 94)
-                    d = random.randint(1, 94)
-                    e = random.randint(1, 94)
+                    a = random.randint(1, TheRandomHighNumber)
+                    b = random.randint(1, TheRandomHighNumber)
+                    c = random.randint(1, TheRandomHighNumber)
+                    d = random.randint(1, TheRandomHighNumber)
+                    e = random.randint(1, TheRandomHighNumber)
                     ThreeALocked = a
                     ThreeBLocked = b
                     ThreeCLocked = c
@@ -292,11 +293,11 @@ while count != 10000000:
         elif one == 4: 
             while ThisIsACounterSoTheCodeWorksbutdifferent4 != 1:
                 if FourALocked == 0:
-                    a = random.randint(1, 94)
-                    b = random.randint(1, 94)
-                    c = random.randint(1, 94)
-                    d = random.randint(1, 94)
-                    e = random.randint(1, 94)
+                    a = random.randint(1, TheRandomHighNumber)
+                    b = random.randint(1, TheRandomHighNumber)
+                    c = random.randint(1, TheRandomHighNumber)
+                    d = random.randint(1, TheRandomHighNumber)
+                    e = random.randint(1, TheRandomHighNumber)
                     FourALocked = a
                     FourBLocked = b
                     FourCLocked = c
@@ -310,11 +311,11 @@ while count != 10000000:
         elif one == 5: 
             while ThisIsACounterSoTheCodeWorksbutdifferent5 != 1:
                 if FiveALocked == 0:
-                    a = random.randint(1, 94)
-                    b = random.randint(1, 94)
-                    c = random.randint(1, 94)
-                    d = random.randint(1, 94)
-                    e = random.randint(1, 94)
+                    a = random.randint(1, TheRandomHighNumber)
+                    b = random.randint(1, TheRandomHighNumber)
+                    c = random.randint(1, TheRandomHighNumber)
+                    d = random.randint(1, TheRandomHighNumber)
+                    e = random.randint(1, TheRandomHighNumber)
                     FiveALocked = a
                     FiveBLocked = b
                     FiveCLocked = c
@@ -328,11 +329,11 @@ while count != 10000000:
         elif one == 6:
             while ThisIsACounterSoTheCodeWorksbutdifferent6 != 1:
                 if SixALocked == 0:
-                    a = random.randint(1, 94)
-                    b = random.randint(1, 94)
-                    c = random.randint(1, 94)
-                    d = random.randint(1, 94)
-                    e = random.randint(1, 94)
+                    a = random.randint(1, TheRandomHighNumber)
+                    b = random.randint(1, TheRandomHighNumber)
+                    c = random.randint(1, TheRandomHighNumber)
+                    d = random.randint(1, TheRandomHighNumber)
+                    e = random.randint(1, TheRandomHighNumber)
                     SixALocked = a
                     SixBLocked = b
                     SixCLocked = c
@@ -346,11 +347,11 @@ while count != 10000000:
         elif one == 7:
             while ThisIsACounterSoTheCodeWorksbutdifferent7 != 1:
                 if SevenALocked == 0:
-                    a = random.randint(1, 94)
-                    b = random.randint(1, 94)
-                    c = random.randint(1, 94)
-                    d = random.randint(1, 94)
-                    e = random.randint(1, 94)
+                    a = random.randint(1, TheRandomHighNumber)
+                    b = random.randint(1, TheRandomHighNumber)
+                    c = random.randint(1, TheRandomHighNumber)
+                    d = random.randint(1, TheRandomHighNumber)
+                    e = random.randint(1, TheRandomHighNumber)
                     SevenALocked = a
                     SevenBLocked = b
                     SevenCLocked = c
@@ -364,11 +365,11 @@ while count != 10000000:
         elif one == 8: 
             while ThisIsACounterSoTheCodeWorksbutdifferent8 != 1:
                 if EightALocked == 0:
-                    a = random.randint(1, 94)
-                    b = random.randint(1, 94)
-                    c = random.randint(1, 94)
-                    d = random.randint(1, 94)
-                    e = random.randint(1, 94)
+                    a = random.randint(1, TheRandomHighNumber)
+                    b = random.randint(1, TheRandomHighNumber)
+                    c = random.randint(1, TheRandomHighNumber)
+                    d = random.randint(1, TheRandomHighNumber)
+                    e = random.randint(1, TheRandomHighNumber)
                     EightALocked = a
                     EightBLocked = b
                     EightCLocked = c
@@ -382,11 +383,11 @@ while count != 10000000:
         elif one == 9: 
             while ThisIsACounterSoTheCodeWorksbutdifferent9 != 1:
                 if NineALocked == 0:
-                    a = random.randint(1, 94)
-                    b = random.randint(1, 94)
-                    c = random.randint(1, 94)
-                    d = random.randint(1, 94)
-                    e = random.randint(1, 94)
+                    a = random.randint(1, TheRandomHighNumber)
+                    b = random.randint(1, TheRandomHighNumber)
+                    c = random.randint(1, TheRandomHighNumber)
+                    d = random.randint(1, TheRandomHighNumber)
+                    e = random.randint(1, TheRandomHighNumber)
                     NineALocked = a
                     NineBLocked = b
                     NineCLocked = c
@@ -445,11 +446,11 @@ while count != 10000000:
         if two == 0:
             while ThisIsACounterSoTheCodeWorksbutdifferent10 != 1:
                 if ZeroFLocked == 0:
-                    f = random.randint(1, 94)
-                    g = random.randint(1, 94)
-                    h = random.randint(1, 94)
-                    i = random.randint(1, 94)
-                    j = random.randint(1, 94)
+                    f = random.randint(1, TheRandomHighNumber)
+                    g = random.randint(1, TheRandomHighNumber)
+                    h = random.randint(1, TheRandomHighNumber)
+                    i = random.randint(1, TheRandomHighNumber)
+                    j = random.randint(1, TheRandomHighNumber)
                     ZeroFLocked = f
                     ZeroGLocked = g
                     ZeroHLocked = h
@@ -463,11 +464,11 @@ while count != 10000000:
         elif two == 1:
             while ThisIsACounterSoTheCodeWorksbutdifferent11 != 1:
                 if OneFLocked == 0:
-                    f = random.randint(1, 94)
-                    g = random.randint(1, 94)
-                    h = random.randint(1, 94)
-                    i = random.randint(1, 94)
-                    j = random.randint(1, 94)
+                    f = random.randint(1, TheRandomHighNumber)
+                    g = random.randint(1, TheRandomHighNumber)
+                    h = random.randint(1, TheRandomHighNumber)
+                    i = random.randint(1, TheRandomHighNumber)
+                    j = random.randint(1, TheRandomHighNumber)
                     OneFLocked = f
                     OneGLocked = g
                     OneHLocked = h
@@ -481,11 +482,11 @@ while count != 10000000:
         elif two == 2:
             while ThisIsACounterSoTheCodeWorksbutdifferent12 != 1:
                 if TwoFLocked == 0:
-                    f = random.randint(1, 94)
-                    g = random.randint(1, 94)
-                    h = random.randint(1, 94)
-                    i = random.randint(1, 94)
-                    j = random.randint(1, 94)
+                    f = random.randint(1, TheRandomHighNumber)
+                    g = random.randint(1, TheRandomHighNumber)
+                    h = random.randint(1, TheRandomHighNumber)
+                    i = random.randint(1, TheRandomHighNumber)
+                    j = random.randint(1, TheRandomHighNumber)
                     TwoFLocked = f
                     TwoGLocked = g
                     TwoHLocked = h
@@ -499,11 +500,11 @@ while count != 10000000:
         elif two == 3:
             while ThisIsACounterSoTheCodeWorksbutdifferent13 != 1:
                 if ThreeFLocked == 0:
-                    f = random.randint(1, 94)
-                    g = random.randint(1, 94)
-                    h = random.randint(1, 94)
-                    i = random.randint(1, 94)
-                    j = random.randint(1, 94)
+                    f = random.randint(1, TheRandomHighNumber)
+                    g = random.randint(1, TheRandomHighNumber)
+                    h = random.randint(1, TheRandomHighNumber)
+                    i = random.randint(1, TheRandomHighNumber)
+                    j = random.randint(1, TheRandomHighNumber)
                     ThreeFLocked = f
                     ThreeGLocked = g
                     ThreeHLocked = h
@@ -517,11 +518,11 @@ while count != 10000000:
         elif two == 4: 
             while ThisIsACounterSoTheCodeWorksbutdifferent14 != 1:
                 if FourFLocked == 0:
-                    f = random.randint(1, 94)
-                    g = random.randint(1, 94)
-                    h = random.randint(1, 94)
-                    i = random.randint(1, 94)
-                    j = random.randint(1, 94)
+                    f = random.randint(1, TheRandomHighNumber)
+                    g = random.randint(1, TheRandomHighNumber)
+                    h = random.randint(1, TheRandomHighNumber)
+                    i = random.randint(1, TheRandomHighNumber)
+                    j = random.randint(1, TheRandomHighNumber)
                     FourFLocked = f
                     FourGLocked = g
                     FourHLocked = h
@@ -535,11 +536,11 @@ while count != 10000000:
         elif two == 5: 
             while ThisIsACounterSoTheCodeWorksbutdifferent15 != 1:
                 if FiveFLocked == 0:
-                    f = random.randint(1, 94)
-                    g = random.randint(1, 94)
-                    h = random.randint(1, 94)
-                    i = random.randint(1, 94)
-                    j = random.randint(1, 94)
+                    f = random.randint(1, TheRandomHighNumber)
+                    g = random.randint(1, TheRandomHighNumber)
+                    h = random.randint(1, TheRandomHighNumber)
+                    i = random.randint(1, TheRandomHighNumber)
+                    j = random.randint(1, TheRandomHighNumber)
                     FiveFLocked = f
                     FiveGLocked = g
                     FiveHLocked = h
@@ -553,11 +554,11 @@ while count != 10000000:
         elif two == 6:
             while ThisIsACounterSoTheCodeWorksbutdifferent16 != 1:
                 if SixFLocked == 0:
-                    f = random.randint(1, 94)
-                    g = random.randint(1, 94)
-                    h = random.randint(1, 94)
-                    i = random.randint(1, 94)
-                    j = random.randint(1, 94)
+                    f = random.randint(1, TheRandomHighNumber)
+                    g = random.randint(1, TheRandomHighNumber)
+                    h = random.randint(1, TheRandomHighNumber)
+                    i = random.randint(1, TheRandomHighNumber)
+                    j = random.randint(1, TheRandomHighNumber)
                     SixFLocked = f
                     SixGLocked = g
                     SixHLocked = h
@@ -571,11 +572,11 @@ while count != 10000000:
         elif two == 7:
             while ThisIsACounterSoTheCodeWorksbutdifferent17 != 1:
                 if SevenFLocked == 0:
-                    f = random.randint(1, 94)
-                    g = random.randint(1, 94)
-                    h = random.randint(1, 94)
-                    i = random.randint(1, 94)
-                    j = random.randint(1, 94)
+                    f = random.randint(1, TheRandomHighNumber)
+                    g = random.randint(1, TheRandomHighNumber)
+                    h = random.randint(1, TheRandomHighNumber)
+                    i = random.randint(1, TheRandomHighNumber)
+                    j = random.randint(1, TheRandomHighNumber)
                     SevenFLocked = f
                     SevenGLocked = g
                     SevenHLocked = h
@@ -589,11 +590,11 @@ while count != 10000000:
         elif two == 8: 
             while ThisIsACounterSoTheCodeWorksbutdifferent18 != 1:
                 if EightFLocked == 0:
-                    f = random.randint(1, 94)
-                    g = random.randint(1, 94)
-                    h = random.randint(1, 94)
-                    i = random.randint(1, 94)
-                    j = random.randint(1, 94)
+                    f = random.randint(1, TheRandomHighNumber)
+                    g = random.randint(1, TheRandomHighNumber)
+                    h = random.randint(1, TheRandomHighNumber)
+                    i = random.randint(1, TheRandomHighNumber)
+                    j = random.randint(1, TheRandomHighNumber)
                     EightFLocked = f
                     EightGLocked = g
                     EightHLocked = h
@@ -607,11 +608,11 @@ while count != 10000000:
         elif two == 9: 
             while ThisIsACounterSoTheCodeWorksbutdifferent19 != 1:
                 if NineFLocked == 0:
-                    f = random.randint(1, 94)
-                    g = random.randint(1, 94)
-                    h = random.randint(1, 94)
-                    i = random.randint(1, 94)
-                    j = random.randint(1, 94)
+                    f = random.randint(1, TheRandomHighNumber)
+                    g = random.randint(1, TheRandomHighNumber)
+                    h = random.randint(1, TheRandomHighNumber)
+                    i = random.randint(1, TheRandomHighNumber)
+                    j = random.randint(1, TheRandomHighNumber)
                     NineFLocked = f
                     NineGLocked = g
                     NineHLocked = h
@@ -668,11 +669,11 @@ while count != 10000000:
         if three == 0:
             while ThisIsACounterSoTheCodeWorksbutdifferent20 != 1:
                 if ZeroKLocked == 0:
-                    k = random.randint(1, 94)
-                    l = random.randint(1, 94)
-                    m = random.randint(1, 94)
-                    n = random.randint(1, 94)
-                    o = random.randint(1, 94)
+                    k = random.randint(1, TheRandomHighNumber)
+                    l = random.randint(1, TheRandomHighNumber)
+                    m = random.randint(1, TheRandomHighNumber)
+                    n = random.randint(1, TheRandomHighNumber)
+                    o = random.randint(1, TheRandomHighNumber)
                     ZeroKLocked = k
                     ZeroLLocked = l
                     ZeroMLocked = m
@@ -686,11 +687,11 @@ while count != 10000000:
         elif three == 1:
             while ThisIsACounterSoTheCodeWorksbutdifferent21 != 1:
                 if OneKLocked == 0:
-                    k = random.randint(1, 94)
-                    l = random.randint(1, 94)
-                    m = random.randint(1, 94)
-                    n = random.randint(1, 94)
-                    o = random.randint(1, 94)
+                    k = random.randint(1, TheRandomHighNumber)
+                    l = random.randint(1, TheRandomHighNumber)
+                    m = random.randint(1, TheRandomHighNumber)
+                    n = random.randint(1, TheRandomHighNumber)
+                    o = random.randint(1, TheRandomHighNumber)
                     OneKLocked = k
                     OneLLocked = l
                     OneMLocked = m
@@ -704,11 +705,11 @@ while count != 10000000:
         elif three == 2:
             while ThisIsACounterSoTheCodeWorksbutdifferent22 != 1:
                 if TwoKLocked == 0:
-                    k = random.randint(1, 94)
-                    l = random.randint(1, 94)
-                    m = random.randint(1, 94)
-                    n = random.randint(1, 94)
-                    o = random.randint(1, 94)
+                    k = random.randint(1, TheRandomHighNumber)
+                    l = random.randint(1, TheRandomHighNumber)
+                    m = random.randint(1, TheRandomHighNumber)
+                    n = random.randint(1, TheRandomHighNumber)
+                    o = random.randint(1, TheRandomHighNumber)
                     TwoKLocked = k
                     TwoLLocked = l
                     TwoMLocked = m
@@ -722,11 +723,11 @@ while count != 10000000:
         elif three == 3:
             while ThisIsACounterSoTheCodeWorksbutdifferent23 != 1:
                 if ThreeKLocked == 0:
-                    k = random.randint(1, 94)
-                    l = random.randint(1, 94)
-                    m = random.randint(1, 94)
-                    n = random.randint(1, 94)
-                    o = random.randint(1, 94)
+                    k = random.randint(1, TheRandomHighNumber)
+                    l = random.randint(1, TheRandomHighNumber)
+                    m = random.randint(1, TheRandomHighNumber)
+                    n = random.randint(1, TheRandomHighNumber)
+                    o = random.randint(1, TheRandomHighNumber)
                     ThreeKLocked = k
                     ThreeLLocked = l
                     ThreeMLocked = m
@@ -740,11 +741,11 @@ while count != 10000000:
         elif three == 4: 
             while ThisIsACounterSoTheCodeWorksbutdifferent24 != 1:
                 if FourKLocked == 0:
-                    k = random.randint(1, 94)
-                    l = random.randint(1, 94)
-                    m = random.randint(1, 94)
-                    n = random.randint(1, 94)
-                    o = random.randint(1, 94)
+                    k = random.randint(1, TheRandomHighNumber)
+                    l = random.randint(1, TheRandomHighNumber)
+                    m = random.randint(1, TheRandomHighNumber)
+                    n = random.randint(1, TheRandomHighNumber)
+                    o = random.randint(1, TheRandomHighNumber)
                     FourKLocked = k
                     FourLLocked = l
                     FourMLocked = m
@@ -758,11 +759,11 @@ while count != 10000000:
         elif three == 5: 
             while ThisIsACounterSoTheCodeWorksbutdifferent25 != 1:
                 if FiveKLocked == 0:
-                    k = random.randint(1, 94)
-                    l = random.randint(1, 94)
-                    m = random.randint(1, 94)
-                    n = random.randint(1, 94)
-                    o = random.randint(1, 94)
+                    k = random.randint(1, TheRandomHighNumber)
+                    l = random.randint(1, TheRandomHighNumber)
+                    m = random.randint(1, TheRandomHighNumber)
+                    n = random.randint(1, TheRandomHighNumber)
+                    o = random.randint(1, TheRandomHighNumber)
                     FiveKLocked = k
                     FiveLLocked = l
                     FiveMLocked = m
@@ -776,11 +777,11 @@ while count != 10000000:
         elif three == 6:
             while ThisIsACounterSoTheCodeWorksbutdifferent26 != 1:
                 if SixKLocked == 0:
-                    k = random.randint(1, 94)
-                    l = random.randint(1, 94)
-                    m = random.randint(1, 94)
-                    n = random.randint(1, 94)
-                    o = random.randint(1, 94)
+                    k = random.randint(1, TheRandomHighNumber)
+                    l = random.randint(1, TheRandomHighNumber)
+                    m = random.randint(1, TheRandomHighNumber)
+                    n = random.randint(1, TheRandomHighNumber)
+                    o = random.randint(1, TheRandomHighNumber)
                     SixKLocked = k
                     SixLLocked = l
                     SixMLocked = m
@@ -794,11 +795,11 @@ while count != 10000000:
         elif three == 7:
             while ThisIsACounterSoTheCodeWorksbutdifferent27 != 1:
                 if SevenKLocked == 0:
-                    k = random.randint(1, 94)
-                    l = random.randint(1, 94)
-                    m = random.randint(1, 94)
-                    n = random.randint(1, 94)
-                    o = random.randint(1, 94)
+                    k = random.randint(1, TheRandomHighNumber)
+                    l = random.randint(1, TheRandomHighNumber)
+                    m = random.randint(1, TheRandomHighNumber)
+                    n = random.randint(1, TheRandomHighNumber)
+                    o = random.randint(1, TheRandomHighNumber)
                     SevenKLocked = k
                     SevenLLocked = l
                     SevenMLocked = m
@@ -812,11 +813,11 @@ while count != 10000000:
         elif three == 8: 
             while ThisIsACounterSoTheCodeWorksbutdifferent28 != 1:
                 if EightKLocked == 0:
-                    k = random.randint(1, 94)
-                    l = random.randint(1, 94)
-                    m = random.randint(1, 94)
-                    n = random.randint(1, 94)
-                    o = random.randint(1, 94)
+                    k = random.randint(1, TheRandomHighNumber)
+                    l = random.randint(1, TheRandomHighNumber)
+                    m = random.randint(1, TheRandomHighNumber)
+                    n = random.randint(1, TheRandomHighNumber)
+                    o = random.randint(1, TheRandomHighNumber)
                     EightKLocked = k
                     EightLLocked = l
                     EightMLocked = m
@@ -830,11 +831,11 @@ while count != 10000000:
         elif three == 9: 
             while ThisIsACounterSoTheCodeWorksbutdifferent29 != 1:
                 if NineKLocked == 0:
-                    k = random.randint(1, 94)
-                    l = random.randint(1, 94)
-                    m = random.randint(1, 94)
-                    n = random.randint(1, 94)
-                    o = random.randint(1, 94)
+                    k = random.randint(1, TheRandomHighNumber)
+                    l = random.randint(1, TheRandomHighNumber)
+                    m = random.randint(1, TheRandomHighNumber)
+                    n = random.randint(1, TheRandomHighNumber)
+                    o = random.randint(1, TheRandomHighNumber)
                     NineKLocked = k
                     NineLLocked = l
                     NineMLocked = m
@@ -892,11 +893,11 @@ while count != 10000000:
         if four == 0:
             while ThisIsACounterSoTheCodeWorksbutdifferent30 != 1:
                 if ZeroPLocked == 0:
-                    p = random.randint(1, 94)
-                    q = random.randint(1, 94)
-                    r = random.randint(1, 94)
-                    s = random.randint(1, 94)
-                    t = random.randint(1, 94)
+                    p = random.randint(1, TheRandomHighNumber)
+                    q = random.randint(1, TheRandomHighNumber)
+                    r = random.randint(1, TheRandomHighNumber)
+                    s = random.randint(1, TheRandomHighNumber)
+                    t = random.randint(1, TheRandomHighNumber)
                     ZeroPLocked = p
                     ZeroQLocked = q
                     ZeroRLocked = r
@@ -910,11 +911,11 @@ while count != 10000000:
         elif four == 1:
             while ThisIsACounterSoTheCodeWorksbutdifferent31 != 1:
                 if OnePLocked == 0:
-                    p = random.randint(1, 94)
-                    q = random.randint(1, 94)
-                    r = random.randint(1, 94)
-                    s = random.randint(1, 94)
-                    t = random.randint(1, 94)
+                    p = random.randint(1, TheRandomHighNumber)
+                    q = random.randint(1, TheRandomHighNumber)
+                    r = random.randint(1, TheRandomHighNumber)
+                    s = random.randint(1, TheRandomHighNumber)
+                    t = random.randint(1, TheRandomHighNumber)
                     OnePLocked = p
                     OneQLocked = q
                     OneRLocked = r
@@ -928,11 +929,11 @@ while count != 10000000:
         elif four == 2:
             while ThisIsACounterSoTheCodeWorksbutdifferent32 != 1:
                 if TwoPLocked == 0:
-                    p = random.randint(1, 94)
-                    q = random.randint(1, 94)
-                    r = random.randint(1, 94)
-                    s = random.randint(1, 94)
-                    t = random.randint(1, 94)
+                    p = random.randint(1, TheRandomHighNumber)
+                    q = random.randint(1, TheRandomHighNumber)
+                    r = random.randint(1, TheRandomHighNumber)
+                    s = random.randint(1, TheRandomHighNumber)
+                    t = random.randint(1, TheRandomHighNumber)
                     TwoPLocked = p
                     TwoQLocked = q
                     TwoRLocked = r
@@ -946,11 +947,11 @@ while count != 10000000:
         elif four == 3:
             while ThisIsACounterSoTheCodeWorksbutdifferent33 != 1:
                 if ThreePLocked == 0:
-                    p = random.randint(1, 94)
-                    q = random.randint(1, 94)
-                    r = random.randint(1, 94)
-                    s = random.randint(1, 94)
-                    t = random.randint(1, 94)
+                    p = random.randint(1, TheRandomHighNumber)
+                    q = random.randint(1, TheRandomHighNumber)
+                    r = random.randint(1, TheRandomHighNumber)
+                    s = random.randint(1, TheRandomHighNumber)
+                    t = random.randint(1, TheRandomHighNumber)
                     ThreePLocked = p
                     ThreeQLocked = q
                     ThreeRLocked = r
@@ -964,11 +965,11 @@ while count != 10000000:
         elif four == 4: 
             while ThisIsACounterSoTheCodeWorksbutdifferent34 != 1:
                 if FourPLocked == 0:
-                    p = random.randint(1, 94)
-                    q = random.randint(1, 94)
-                    r = random.randint(1, 94)
-                    s = random.randint(1, 94)
-                    t = random.randint(1, 94)
+                    p = random.randint(1, TheRandomHighNumber)
+                    q = random.randint(1, TheRandomHighNumber)
+                    r = random.randint(1, TheRandomHighNumber)
+                    s = random.randint(1, TheRandomHighNumber)
+                    t = random.randint(1, TheRandomHighNumber)
                     FourPLocked = p
                     FourQLocked = q
                     FourRLocked = r
@@ -982,11 +983,11 @@ while count != 10000000:
         elif four == 5: 
             while ThisIsACounterSoTheCodeWorksbutdifferent35 != 1:
                 if FivePLocked == 0:
-                    p = random.randint(1, 94)
-                    q = random.randint(1, 94)
-                    r = random.randint(1, 94)
-                    s = random.randint(1, 94)
-                    t = random.randint(1, 94)
+                    p = random.randint(1, TheRandomHighNumber)
+                    q = random.randint(1, TheRandomHighNumber)
+                    r = random.randint(1, TheRandomHighNumber)
+                    s = random.randint(1, TheRandomHighNumber)
+                    t = random.randint(1, TheRandomHighNumber)
                     FivePLocked = p
                     FiveQLocked = q
                     FiveRLocked = r
@@ -1000,11 +1001,11 @@ while count != 10000000:
         elif four == 6:
             while ThisIsACounterSoTheCodeWorksbutdifferent36 != 1:
                 if SixPLocked == 0:
-                    p = random.randint(1, 94)
-                    q = random.randint(1, 94)
-                    r = random.randint(1, 94)
-                    s = random.randint(1, 94)
-                    t = random.randint(1, 94)
+                    p = random.randint(1, TheRandomHighNumber)
+                    q = random.randint(1, TheRandomHighNumber)
+                    r = random.randint(1, TheRandomHighNumber)
+                    s = random.randint(1, TheRandomHighNumber)
+                    t = random.randint(1, TheRandomHighNumber)
                     SixPLocked = p
                     SixQLocked = q
                     SixRLocked = r
@@ -1018,11 +1019,11 @@ while count != 10000000:
         elif four == 7:
             while ThisIsACounterSoTheCodeWorksbutdifferent37 != 1:
                 if SevenPLocked == 0:
-                    p = random.randint(1, 94)
-                    q = random.randint(1, 94)
-                    r = random.randint(1, 94)
-                    s = random.randint(1, 94)
-                    t = random.randint(1, 94)
+                    p = random.randint(1, TheRandomHighNumber)
+                    q = random.randint(1, TheRandomHighNumber)
+                    r = random.randint(1, TheRandomHighNumber)
+                    s = random.randint(1, TheRandomHighNumber)
+                    t = random.randint(1, TheRandomHighNumber)
                     SevenPLocked = p
                     SevenQLocked = q
                     SevenRLocked = r
@@ -1036,11 +1037,11 @@ while count != 10000000:
         elif four == 8: 
             while ThisIsACounterSoTheCodeWorksbutdifferent38 != 1:
                 if EightPLocked == 0:
-                    p = random.randint(1, 94)
-                    q = random.randint(1, 94)
-                    r = random.randint(1, 94)
-                    s = random.randint(1, 94)
-                    t = random.randint(1, 94)
+                    p = random.randint(1, TheRandomHighNumber)
+                    q = random.randint(1, TheRandomHighNumber)
+                    r = random.randint(1, TheRandomHighNumber)
+                    s = random.randint(1, TheRandomHighNumber)
+                    t = random.randint(1, TheRandomHighNumber)
                     EightPLocked = p
                     EightQLocked = q
                     EightRLocked = r
@@ -1054,11 +1055,11 @@ while count != 10000000:
         elif four == 9: 
             while ThisIsACounterSoTheCodeWorksbutdifferent39 != 1:
                 if NinePLocked == 0:
-                    p = random.randint(1, 94)
-                    q = random.randint(1, 94)
-                    r = random.randint(1, 94)
-                    s = random.randint(1, 94)
-                    t = random.randint(1, 94)
+                    p = random.randint(1, TheRandomHighNumber)
+                    q = random.randint(1, TheRandomHighNumber)
+                    r = random.randint(1, TheRandomHighNumber)
+                    s = random.randint(1, TheRandomHighNumber)
+                    t = random.randint(1, TheRandomHighNumber)
                     NinePLocked = p
                     NineQLocked = q
                     NineRLocked = r
@@ -1116,11 +1117,11 @@ while count != 10000000:
         if five == 0:
             while ThisIsACounterSoTheCodeWorksbutdifferent40 != 1:
                 if ZeroULocked == 0:
-                    u = random.randint(1, 94)
-                    v = random.randint(1, 94)
-                    w = random.randint(1, 94)
-                    x = random.randint(1, 94)
-                    y = random.randint(1, 94)
+                    u = random.randint(1, TheRandomHighNumber)
+                    v = random.randint(1, TheRandomHighNumber)
+                    w = random.randint(1, TheRandomHighNumber)
+                    x = random.randint(1, TheRandomHighNumber)
+                    y = random.randint(1, TheRandomHighNumber)
                     ZeroULocked = u
                     ZeroVLocked = v
                     ZeroWLocked = w
@@ -1134,11 +1135,11 @@ while count != 10000000:
         elif five == 1:
             while ThisIsACounterSoTheCodeWorksbutdifferent41 != 1:
                 if OneULocked == 0:
-                    u = random.randint(1, 94)
-                    v = random.randint(1, 94)
-                    w = random.randint(1, 94)
-                    x = random.randint(1, 94)
-                    y = random.randint(1, 94)
+                    u = random.randint(1, TheRandomHighNumber)
+                    v = random.randint(1, TheRandomHighNumber)
+                    w = random.randint(1, TheRandomHighNumber)
+                    x = random.randint(1, TheRandomHighNumber)
+                    y = random.randint(1, TheRandomHighNumber)
                     OneULocked = u
                     OneVLocked = v
                     OneWLocked = w
@@ -1152,11 +1153,11 @@ while count != 10000000:
         elif five == 2:
             while ThisIsACounterSoTheCodeWorksbutdifferent42 != 1:
                 if TwoULocked == 0:
-                    u = random.randint(1, 94)
-                    v = random.randint(1, 94)
-                    w = random.randint(1, 94)
-                    x = random.randint(1, 94)
-                    y = random.randint(1, 94)
+                    u = random.randint(1, TheRandomHighNumber)
+                    v = random.randint(1, TheRandomHighNumber)
+                    w = random.randint(1, TheRandomHighNumber)
+                    x = random.randint(1, TheRandomHighNumber)
+                    y = random.randint(1, TheRandomHighNumber)
                     TwoULocked = u
                     TwoVLocked = v
                     TwoWLocked = w
@@ -1170,11 +1171,11 @@ while count != 10000000:
         elif five == 3:
             while ThisIsACounterSoTheCodeWorksbutdifferent43 != 1:
                 if ThreeULocked == 0:
-                    u = random.randint(1, 94)
-                    v = random.randint(1, 94)
-                    w = random.randint(1, 94)
-                    x = random.randint(1, 94)
-                    y = random.randint(1, 94)
+                    u = random.randint(1, TheRandomHighNumber)
+                    v = random.randint(1, TheRandomHighNumber)
+                    w = random.randint(1, TheRandomHighNumber)
+                    x = random.randint(1, TheRandomHighNumber)
+                    y = random.randint(1, TheRandomHighNumber)
                     ThreeULocked = u
                     ThreeVLocked = v
                     ThreeWLocked = w
@@ -1188,11 +1189,11 @@ while count != 10000000:
         elif five == 4: 
             while ThisIsACounterSoTheCodeWorksbutdifferent44 != 1:
                 if FourULocked == 0:
-                    u = random.randint(1, 94)
-                    v = random.randint(1, 94)
-                    w = random.randint(1, 94)
-                    x = random.randint(1, 94)
-                    y = random.randint(1, 94)
+                    u = random.randint(1, TheRandomHighNumber)
+                    v = random.randint(1, TheRandomHighNumber)
+                    w = random.randint(1, TheRandomHighNumber)
+                    x = random.randint(1, TheRandomHighNumber)
+                    y = random.randint(1, TheRandomHighNumber)
                     FourULocked = u
                     FourVLocked = v
                     FourWLocked = w
@@ -1206,11 +1207,11 @@ while count != 10000000:
         elif five == 5: 
             while ThisIsACounterSoTheCodeWorksbutdifferent45 != 1:
                 if FiveULocked == 0:
-                    u = random.randint(1, 94)
-                    v = random.randint(1, 94)
-                    w = random.randint(1, 94)
-                    x = random.randint(1, 94)
-                    y = random.randint(1, 94)
+                    u = random.randint(1, TheRandomHighNumber)
+                    v = random.randint(1, TheRandomHighNumber)
+                    w = random.randint(1, TheRandomHighNumber)
+                    x = random.randint(1, TheRandomHighNumber)
+                    y = random.randint(1, TheRandomHighNumber)
                     FiveULocked = u
                     FiveVLocked = v
                     FiveWLocked = w
@@ -1224,11 +1225,11 @@ while count != 10000000:
         elif five == 6:
             while ThisIsACounterSoTheCodeWorksbutdifferent46 != 1:
                 if SixULocked == 0:
-                    u = random.randint(1, 94)
-                    v = random.randint(1, 94)
-                    w = random.randint(1, 94)
-                    x = random.randint(1, 94)
-                    y = random.randint(1, 94)
+                    u = random.randint(1, TheRandomHighNumber)
+                    v = random.randint(1, TheRandomHighNumber)
+                    w = random.randint(1, TheRandomHighNumber)
+                    x = random.randint(1, TheRandomHighNumber)
+                    y = random.randint(1, TheRandomHighNumber)
                     SixULocked = u
                     SixVLocked = v
                     SixWLocked = w
@@ -1242,11 +1243,11 @@ while count != 10000000:
         elif five == 7:
             while ThisIsACounterSoTheCodeWorksbutdifferent47 != 1:
                 if SevenULocked == 0:
-                    u = random.randint(1, 94)
-                    v = random.randint(1, 94)
-                    w = random.randint(1, 94)
-                    x = random.randint(1, 94)
-                    y = random.randint(1, 94)
+                    u = random.randint(1, TheRandomHighNumber)
+                    v = random.randint(1, TheRandomHighNumber)
+                    w = random.randint(1, TheRandomHighNumber)
+                    x = random.randint(1, TheRandomHighNumber)
+                    y = random.randint(1, TheRandomHighNumber)
                     SevenULocked = u
                     SevenVLocked = v
                     SevenWLocked = w
@@ -1260,11 +1261,11 @@ while count != 10000000:
         elif five == 8: 
             while ThisIsACounterSoTheCodeWorksbutdifferent48 != 1:
                 if EightULocked == 0:
-                    u = random.randint(1, 94)
-                    v = random.randint(1, 94)
-                    w = random.randint(1, 94)
-                    x = random.randint(1, 94)
-                    y = random.randint(1, 94)
+                    u = random.randint(1, TheRandomHighNumber)
+                    v = random.randint(1, TheRandomHighNumber)
+                    w = random.randint(1, TheRandomHighNumber)
+                    x = random.randint(1, TheRandomHighNumber)
+                    y = random.randint(1, TheRandomHighNumber)
                     EightULocked = u
                     EightVLocked = v
                     EightWLocked = w
@@ -1278,11 +1279,11 @@ while count != 10000000:
         elif five == 9: 
             while ThisIsACounterSoTheCodeWorksbutdifferent49 != 1:
                 if NineULocked == 0:
-                    u = random.randint(1, 94)
-                    v = random.randint(1, 94)
-                    w = random.randint(1, 94)
-                    x = random.randint(1, 94)
-                    y = random.randint(1, 94)
+                    u = random.randint(1, TheRandomHighNumber)
+                    v = random.randint(1, TheRandomHighNumber)
+                    w = random.randint(1, TheRandomHighNumber)
+                    x = random.randint(1, TheRandomHighNumber)
+                    y = random.randint(1, TheRandomHighNumber)
                     NineULocked = u
                     NineVLocked = v
                     NineWLocked = w
@@ -1340,11 +1341,11 @@ while count != 10000000:
         if six == 0:
             while ThisIsACounterSoTheCodeWorksbutdifferent50 != 1:
                 if ZeroZLocked == 0:
-                    z = random.randint(1, 94)
-                    fullstop = random.randint(1, 94)
-                    comma = random.randint(1, 94)
-                    questionMark = random.randint(1, 94)
-                    exclimationPoint = random.randint(1, 94)
+                    z = random.randint(1, TheRandomHighNumber)
+                    fullstop = random.randint(1, TheRandomHighNumber)
+                    comma = random.randint(1, TheRandomHighNumber)
+                    questionMark = random.randint(1, TheRandomHighNumber)
+                    exclimationPoint = random.randint(1, TheRandomHighNumber)
                     ZeroZLocked = z
                     ZeroFullstopLocked = fullstop
                     ZeroCommaLocked = comma
@@ -1358,11 +1359,11 @@ while count != 10000000:
         elif six == 1:
             while ThisIsACounterSoTheCodeWorksbutdifferent51 != 1:
                 if OneZLocked == 0:
-                    z = random.randint(1, 94)
-                    fullstop = random.randint(1, 94)
-                    comma = random.randint(1, 94)
-                    questionMark = random.randint(1, 94)
-                    exclimationPoint = random.randint(1, 94)
+                    z = random.randint(1, TheRandomHighNumber)
+                    fullstop = random.randint(1, TheRandomHighNumber)
+                    comma = random.randint(1, TheRandomHighNumber)
+                    questionMark = random.randint(1, TheRandomHighNumber)
+                    exclimationPoint = random.randint(1, TheRandomHighNumber)
                     OneZLocked = z
                     OneFullstopLocked = fullstop
                     OneCommaLocked = comma
@@ -1376,11 +1377,11 @@ while count != 10000000:
         elif six == 2:
             while ThisIsACounterSoTheCodeWorksbutdifferent52 != 1:
                 if TwoZLocked == 0:
-                    z = random.randint(1, 94)
-                    fullstop = random.randint(1, 94)
-                    comma = random.randint(1, 94)
-                    questionMark = random.randint(1, 94)
-                    exclimationPoint = random.randint(1, 94)
+                    z = random.randint(1, TheRandomHighNumber)
+                    fullstop = random.randint(1, TheRandomHighNumber)
+                    comma = random.randint(1, TheRandomHighNumber)
+                    questionMark = random.randint(1, TheRandomHighNumber)
+                    exclimationPoint = random.randint(1, TheRandomHighNumber)
                     TwoZLocked = z
                     TwoFullstopLocked = fullstop
                     TwoCommaLocked = comma
@@ -1394,11 +1395,11 @@ while count != 10000000:
         elif six == 3:
             while ThisIsACounterSoTheCodeWorksbutdifferent53 != 1:
                 if ThreeZLocked == 0:
-                    z = random.randint(1, 94)
-                    fullstop = random.randint(1, 94)
-                    comma = random.randint(1, 94)
-                    questionMark = random.randint(1, 94)
-                    exclimationPoint = random.randint(1, 94)
+                    z = random.randint(1, TheRandomHighNumber)
+                    fullstop = random.randint(1, TheRandomHighNumber)
+                    comma = random.randint(1, TheRandomHighNumber)
+                    questionMark = random.randint(1, TheRandomHighNumber)
+                    exclimationPoint = random.randint(1, TheRandomHighNumber)
                     ThreeZLocked = z
                     ThreeFullstopLocked = fullstop
                     ThreeCommaLocked = comma
@@ -1412,11 +1413,11 @@ while count != 10000000:
         elif six == 4: 
             while ThisIsACounterSoTheCodeWorksbutdifferent54 != 1:
                 if FourZLocked == 0:
-                    z = random.randint(1, 94)
-                    fullstop = random.randint(1, 94)
-                    comma = random.randint(1, 94)
-                    questionMark = random.randint(1, 94)
-                    exclimationPoint = random.randint(1, 94)
+                    z = random.randint(1, TheRandomHighNumber)
+                    fullstop = random.randint(1, TheRandomHighNumber)
+                    comma = random.randint(1, TheRandomHighNumber)
+                    questionMark = random.randint(1, TheRandomHighNumber)
+                    exclimationPoint = random.randint(1, TheRandomHighNumber)
                     FourZLocked = z
                     FourFullstopLocked = fullstop
                     FourCommaLocked = comma
@@ -1430,11 +1431,11 @@ while count != 10000000:
         elif six == 5: 
             while ThisIsACounterSoTheCodeWorksbutdifferent55 != 1:
                 if FiveZLocked == 0:
-                    z = random.randint(1, 94)
-                    fullstop = random.randint(1, 94)
-                    comma = random.randint(1, 94)
-                    questionMark = random.randint(1, 94)
-                    exclimationPoint = random.randint(1, 94)
+                    z = random.randint(1, TheRandomHighNumber)
+                    fullstop = random.randint(1, TheRandomHighNumber)
+                    comma = random.randint(1, TheRandomHighNumber)
+                    questionMark = random.randint(1, TheRandomHighNumber)
+                    exclimationPoint = random.randint(1, TheRandomHighNumber)
                     FiveZLocked = z
                     FiveFullstopLocked = fullstop
                     FiveCommaLocked = comma
@@ -1448,11 +1449,11 @@ while count != 10000000:
         elif six == 6:
             while ThisIsACounterSoTheCodeWorksbutdifferent56 != 1:
                 if SixZLocked == 0:
-                    z = random.randint(1, 94)
-                    fullstop = random.randint(1, 94)
-                    comma = random.randint(1, 94)
-                    questionMark = random.randint(1, 94)
-                    exclimationPoint = random.randint(1, 94)
+                    z = random.randint(1, TheRandomHighNumber)
+                    fullstop = random.randint(1, TheRandomHighNumber)
+                    comma = random.randint(1, TheRandomHighNumber)
+                    questionMark = random.randint(1, TheRandomHighNumber)
+                    exclimationPoint = random.randint(1, TheRandomHighNumber)
                     SixZLocked = z
                     SixFullstopLocked = fullstop
                     SixCommaLocked = comma
@@ -1466,11 +1467,11 @@ while count != 10000000:
         elif six == 7:
             while ThisIsACounterSoTheCodeWorksbutdifferent57 != 1:
                 if SevenZLocked == 0:
-                    z = random.randint(1, 94)
-                    fullstop = random.randint(1, 94)
-                    comma = random.randint(1, 94)
-                    questionMark = random.randint(1, 94)
-                    exclimationPoint = random.randint(1, 94)
+                    z = random.randint(1, TheRandomHighNumber)
+                    fullstop = random.randint(1, TheRandomHighNumber)
+                    comma = random.randint(1, TheRandomHighNumber)
+                    questionMark = random.randint(1, TheRandomHighNumber)
+                    exclimationPoint = random.randint(1, TheRandomHighNumber)
                     SevenZLocked = z
                     SevenFullstopLocked = fullstop
                     SevenCommaLocked = comma
@@ -1484,11 +1485,11 @@ while count != 10000000:
         elif six == 8: 
             while ThisIsACounterSoTheCodeWorksbutdifferent58 != 1:
                 if EightZLocked == 0:
-                    z = random.randint(1, 94)
-                    fullstop = random.randint(1, 94)
-                    comma = random.randint(1, 94)
-                    questionMark = random.randint(1, 94)
-                    exclimationPoint = random.randint(1, 94)
+                    z = random.randint(1, TheRandomHighNumber)
+                    fullstop = random.randint(1,TheRandomHighNumber)
+                    comma = random.randint(1, TheRandomHighNumber)
+                    questionMark = random.randint(1, TheRandomHighNumber)
+                    exclimationPoint = random.randint(1, TheRandomHighNumber)
                     EightZLocked = z
                     EightFullstopLocked = fullstop
                     EightCommaLocked = comma
@@ -1502,11 +1503,11 @@ while count != 10000000:
         elif six == 9: 
             while ThisIsACounterSoTheCodeWorksbutdifferent59 != 1:
                 if NineZLocked == 0:
-                    z = random.randint(1, 94)
-                    fullstop = random.randint(1, 94)
-                    comma = random.randint(1, 94)
-                    questionMark = random.randint(1, 94)
-                    exclimationPoint = random.randint(1, 94)
+                    z = random.randint(1, TheRandomHighNumber)
+                    fullstop = random.randint(1, TheRandomHighNumber)
+                    comma = random.randint(1, TheRandomHighNumber)
+                    questionMark = random.randint(1, TheRandomHighNumber)
+                    exclimationPoint = random.randint(1, TheRandomHighNumber)
                     NineZLocked = z
                     NineFullstopLocked = fullstop
                     NineCommaLocked = comma
@@ -1565,11 +1566,11 @@ while count != 10000000:
         if seven == 0:
             while ThisIsACounterSoTheCodeWorksbutdifferent60 != 1:
                 if ZeroQuoteLocked == 0:
-                    quote = random.randint(1, 94)
-                    aphostrophe = random.randint(1, 94)
-                    semicolon = random.randint(1, 94)
-                    colon = random.randint(1, 94)
-                    space = random.randint(1, 94)
+                    quote = random.randint(1, TheRandomHighNumber)
+                    aphostrophe = random.randint(1, TheRandomHighNumber)
+                    semicolon = random.randint(1, TheRandomHighNumber)
+                    colon = random.randint(1, TheRandomHighNumber)
+                    space = random.randint(1, TheRandomHighNumber)
                     ZeroQuoteLocked = quote
                     ZeroAphostropheLocked = aphostrophe
                     ZeroSemicolonLocked = semicolon
@@ -1583,11 +1584,11 @@ while count != 10000000:
         elif seven == 1:
             while ThisIsACounterSoTheCodeWorksbutdifferent61 != 1:
                 if OneQuoteLocked == 0:
-                    quote = random.randint(1, 94)
-                    aphostrophe = random.randint(1, 94)
-                    semicolon = random.randint(1, 94)
-                    colon = random.randint(1, 94)
-                    space = random.randint(1, 94)
+                    quote = random.randint(1, TheRandomHighNumber)
+                    aphostrophe = random.randint(1, TheRandomHighNumber)
+                    semicolon = random.randint(1, TheRandomHighNumber)
+                    colon = random.randint(1, TheRandomHighNumber)
+                    space = random.randint(1, TheRandomHighNumber)
                     OneQuoteLocked = quote
                     OneAphostropheLocked = aphostrophe
                     OneSemicolonLocked = semicolon
@@ -1601,11 +1602,11 @@ while count != 10000000:
         elif seven == 2:
             while ThisIsACounterSoTheCodeWorksbutdifferent62 != 1:
                 if TwoQuoteLocked == 0:
-                    quote = random.randint(1, 94)
-                    aphostrophe = random.randint(1, 94)
-                    semicolon = random.randint(1, 94)
-                    colon = random.randint(1, 94)
-                    space = random.randint(1, 94)
+                    quote = random.randint(1, TheRandomHighNumber)
+                    aphostrophe = random.randint(1, TheRandomHighNumber)
+                    semicolon = random.randint(1, TheRandomHighNumber)
+                    colon = random.randint(1, TheRandomHighNumber)
+                    space = random.randint(1, TheRandomHighNumber)
                     TwoQuoteLocked = quote
                     TwoAphostropheLocked = aphostrophe
                     TwoSemicolonLocked = semicolon
@@ -1619,11 +1620,11 @@ while count != 10000000:
         elif seven == 3:
             while ThisIsACounterSoTheCodeWorksbutdifferent63 != 1:
                 if ThreeQuoteLocked == 0:
-                    quote = random.randint(1, 94)
-                    aphostrophe = random.randint(1, 94)
-                    semicolon = random.randint(1, 94)
-                    colon = random.randint(1, 94)
-                    space = random.randint(1, 94)
+                    quote = random.randint(1, TheRandomHighNumber)
+                    aphostrophe = random.randint(1, TheRandomHighNumber)
+                    semicolon = random.randint(1, TheRandomHighNumber)
+                    colon = random.randint(1, TheRandomHighNumber)
+                    space = random.randint(1, TheRandomHighNumber)
                     ThreeQuoteLocked = quote
                     ThreeAphostropheLocked = aphostrophe
                     ThreeSemicolonLocked = semicolon
@@ -1637,11 +1638,11 @@ while count != 10000000:
         elif seven == 4: 
             while ThisIsACounterSoTheCodeWorksbutdifferent64 != 1:
                 if FourQuoteLocked == 0:
-                    quote = random.randint(1, 94)
-                    aphostrophe = random.randint(1, 94)
-                    semicolon = random.randint(1, 94)
-                    colon = random.randint(1, 94)
-                    space = random.randint(1, 94)
+                    quote = random.randint(1, TheRandomHighNumber)
+                    aphostrophe = random.randint(1, TheRandomHighNumber)
+                    semicolon = random.randint(1, TheRandomHighNumber)
+                    colon = random.randint(1, TheRandomHighNumber)
+                    space = random.randint(1, TheRandomHighNumber)
                     FourQuoteLocked = quote
                     FourAphostropheLocked = aphostrophe
                     FourSemicolonLocked = semicolon
@@ -1655,11 +1656,11 @@ while count != 10000000:
         elif seven == 5: 
             while ThisIsACounterSoTheCodeWorksbutdifferent65 != 1:
                 if FiveQuoteLocked == 0:
-                    quote = random.randint(1, 94)
-                    aphostrophe = random.randint(1, 94)
-                    semicolon = random.randint(1, 94)
-                    colon = random.randint(1, 94)
-                    space = random.randint(1, 94)
+                    quote = random.randint(1, TheRandomHighNumber)
+                    aphostrophe = random.randint(1, TheRandomHighNumber)
+                    semicolon = random.randint(1, TheRandomHighNumber)
+                    colon = random.randint(1, TheRandomHighNumber)
+                    space = random.randint(1, TheRandomHighNumber)
                     FiveQuoteLocked = quote
                     FiveAphostropheLocked = aphostrophe
                     FiveSemicolonLocked = semicolon
@@ -1673,11 +1674,11 @@ while count != 10000000:
         elif seven == 6:
             while ThisIsACounterSoTheCodeWorksbutdifferent66 != 1:
                 if SixQuoteLocked == 0:
-                    quote = random.randint(1, 94)
-                    aphostrophe = random.randint(1, 94)
-                    semicolon = random.randint(1, 94)
-                    colon = random.randint(1, 94)
-                    space = random.randint(1, 94)
+                    quote = random.randint(1, TheRandomHighNumber)
+                    aphostrophe = random.randint(1, TheRandomHighNumber)
+                    semicolon = random.randint(1, TheRandomHighNumber)
+                    colon = random.randint(1, TheRandomHighNumber)
+                    space = random.randint(1, TheRandomHighNumber)
                     SixQuoteLocked = quote
                     SixAphostropheLocked = aphostrophe
                     SixSemicolonLocked = semicolon
@@ -1691,11 +1692,11 @@ while count != 10000000:
         elif seven == 7:
             while ThisIsACounterSoTheCodeWorksbutdifferent67 != 1:
                 if SevenQuoteLocked == 0:
-                    quote = random.randint(1, 94)
-                    aphostrophe = random.randint(1, 94)
-                    semicolon = random.randint(1, 94)
-                    colon = random.randint(1, 94)
-                    space = random.randint(1, 94)
+                    quote = random.randint(1, TheRandomHighNumber)
+                    aphostrophe = random.randint(1, TheRandomHighNumber)
+                    semicolon = random.randint(1, TheRandomHighNumber)
+                    colon = random.randint(1, TheRandomHighNumber)
+                    space = random.randint(1, TheRandomHighNumber)
                     SevenQuoteLocked = quote
                     SevenAphostropheLocked = aphostrophe
                     SevenSemicolonLocked = semicolon
@@ -1709,11 +1710,11 @@ while count != 10000000:
         elif seven == 8: 
             while ThisIsACounterSoTheCodeWorksbutdifferent68 != 1:
                 if EightQuoteLocked == 0:
-                    quote = random.randint(1, 94)
-                    aphostrophe = random.randint(1, 94)
-                    semicolon = random.randint(1, 94)
-                    colon = random.randint(1, 94)
-                    space = random.randint(1, 94)
+                    quote = random.randint(1, TheRandomHighNumber)
+                    aphostrophe = random.randint(1, TheRandomHighNumber)
+                    semicolon = random.randint(1, TheRandomHighNumber)
+                    colon = random.randint(1, TheRandomHighNumber)
+                    space = random.randint(1, TheRandomHighNumber)
                     EightQuoteLocked = quote
                     EightAphostropheLocked = aphostrophe
                     EightSemicolonLocked = semicolon
@@ -1727,11 +1728,11 @@ while count != 10000000:
         elif seven == 9: 
             while ThisIsACounterSoTheCodeWorksbutdifferent69 != 1:
                 if NineQuoteLocked == 0:
-                    quote = random.randint(1, 94)
-                    aphostrophe = random.randint(1, 94)
-                    semicolon = random.randint(1, 94)
-                    colon = random.randint(1, 94)
-                    space = random.randint(1, 94)
+                    quote = random.randint(1, TheRandomHighNumber)
+                    aphostrophe = random.randint(1, TheRandomHighNumber)
+                    semicolon = random.randint(1, TheRandomHighNumber)
+                    colon = random.randint(1, TheRandomHighNumber)
+                    space = random.randint(1, TheRandomHighNumber)
                     NineQuoteLocked = quote
                     NineAphostropheLocked = aphostrophe
                     NineSemicolonLocked = semicolon
@@ -1834,7 +1835,7 @@ while count != 10000000:
                 ThisMakesSureThatAllTheDigetsArentTheExactSame = ThisMakesSureThatAllTheDigetsArentTheExactSame + 1
 
 
-            if ThisMakesSureThatAllTheDigetsArentTheExactSame > 5:
+            if ThisMakesSureThatAllTheDigetsArentTheExactSame > 2:
                 ThisMakesSureThatAllTheDifferentsNumbersForOneDigetArentLikeTheExactSame = 0
                 ThisMakesSureThatAllTheDifferentsNumbersForTwoDigetArentLikeTheExactSame = 0
                 ThisMakesSureThatAllTheDifferentsNumbersForThreeDigetArentLikeTheExactSame = 0
